@@ -29,7 +29,7 @@
 &#125;
 </code></pre>
 <p>此处的 <code>timestamp</code> 为我们访问网站时的时间戳，<code>SKIN</code> 中键 <code>url</code> 的值代表玩家皮肤的网址、键 <code>model</code> 的值代表玩家皮肤的种类（这个键不一定存在，但纤细一定是 <code>slim</code>）。访问这个网址，就得到了玩家的皮肤。人工操作起来很复杂，需要辗转多次才能得到最终结果，并且中途还需要进行一次 Base64 解码，于是我便写了一个程序来帮助我获取玩家信息。</p>
-<h2 id="代码解剖"><a href="#代码解剖" class="headerlink" title="代码解剖"></a>代码解剖</h2><p><i class="download-icon fa-solid fa-cloud-arrow-down"></i> <a href="skinFetcher.py" download>下载 <code>skinFetcher.py</code></a> 下方的代码。</p>
+<h2 id="代码解剖"><a href="#代码解剖" class="headerlink" title="代码解剖"></a>代码解剖</h2><p><a target="_blank" rel="noopener" href="https://cdn.xavierwah.xyz/shelter/res/49de1c3f5cd137d1c12bb3a998cdcc4e/skinFetcher.py" download><i class="download-icon fa-solid fa-cloud-arrow-down"></i> 下载 <code>skinFetcher.py</code></a> 下方的代码。</p>
 <pre><code class="python">import requests
 import base64
 import json
@@ -51,7 +51,7 @@ fetch = open(&#39;&#123;&#125;.png&#39;.format(username), &#39;wb&#39;).write(re
 input(&#39;已保存至同级目录下，按回车键退出。&#39;)
 </code></pre>
 <p>由于有些人没有装 Python，所以我又用 PowerShell 写了一个功能一样的。</p>
-<p><i class="download-icon fa-solid fa-cloud-arrow-down"></i> <a href="skinFetcher.ps1" download>下载 <code>skinFetcher.ps1</code></a> 下方的代码。</p>
+<p><a target="_blank" rel="noopener" href="https://cdn.xavierwah.xyz/shelter/res/49de1c3f5cd137d1c12bb3a998cdcc4e/skinFetcher.ps1" download><i class="download-icon fa-solid fa-cloud-arrow-down"></i> 下载 <code>skinFetcher.ps1</code></a> 下方的代码。</p>
 <pre><code class="powershell">$username = Read-Host &#39;输入要获取皮肤玩家 ID&#39;
 
 # 获取用户 UUID
@@ -69,4 +69,4 @@ Invoke-WebRequest $userskin -OutFile ( ($pwd).Path + &#39;\&#39; + $username + &
 Read-Host &#39;已保存至同级目录下，按回车键退出。&#39;
 </code></pre>
 <p>以上代码的逻辑和我们人工操作是一个流程。运行程序之后，直接根据提示输入玩家 ID 即可，皮肤会自动下载到运行目录中。</p>
-</div></article></div></main><footer><div class="paginator"><a class="prev" href="/0a21f13bd0c3/">上一篇</a><a class="next" href="/03ea5e0afdd2/">下一篇</a></div><div class="copyright"><p>© 2021 - 2022 <a href="https://xavierwah.xyz">Xavier Wah</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>
+</div></article></div></main><footer><div class="paginator"><a class="prev" href="/0a21f13bd0c3/">上一篇</a><a class="next" href="/03ea5e0afdd2/">下一篇</a></div><div class="copyright"><p>© 2021 - 2022 <a href="https://xavierwah.xyz">Xavier Wah</a>.</p></div></footer></div></body></html>

@@ -56,7 +56,7 @@ excerpt: 前段日子和朋友玩 Hypixel 的时候，朋友问我能不能把�
 
 ## 代码解剖
 
-<i class="download-icon fa-solid fa-cloud-arrow-down"></i> <a href="skinFetcher.py" download>下载 `skinFetcher.py`</a> 下方的代码。
+<a href="https://cdn.xavierwah.xyz/shelter/res/49de1c3f5cd137d1c12bb3a998cdcc4e/skinFetcher.py" download><i class="download-icon fa-solid fa-cloud-arrow-down"></i> 下载 `skinFetcher.py`</a> 下方的代码。
 
 ``` python
 import requests
@@ -82,7 +82,7 @@ input('已保存至同级目录下，按回车键退出。')
 
 由于有些人没有装 Python，所以我又用 PowerShell 写了一个功能一样的。
 
-<i class="download-icon fa-solid fa-cloud-arrow-down"></i> <a href="skinFetcher.ps1" download>下载 `skinFetcher.ps1`</a> 下方的代码。
+<a href="https://cdn.xavierwah.xyz/shelter/res/49de1c3f5cd137d1c12bb3a998cdcc4e/skinFetcher.ps1" download><i class="download-icon fa-solid fa-cloud-arrow-down"></i> 下载 `skinFetcher.ps1`</a> 下方的代码。
 
 ``` powershell
 $username = Read-Host '输入要获取皮肤玩家 ID'

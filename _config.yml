@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: false
 highlight:
@@ -109,3 +109,12 @@ archive_generator:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+mathjax:
+  tags: none
+  single_dollars: true
+  cjk_width: 0.9
+  normal_width: 0.6
+  append_css: true
+  every_page: false
+  extension_options: {}

@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xavierwah.xyz/0a21f13bd0c3/</loc>
-    
-    <lastmod>2022-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xavierwah.xyz/f685b910b6f0/</loc>
     
     <lastmod>2022-04-23</lastmod>
@@ -21,6 +12,15 @@
   
   <url>
     <loc>https://xavierwah.xyz/770ff2cc819f/</loc>
+    
+    <lastmod>2022-04-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xavierwah.xyz/0a21f13bd0c3/</loc>
     
     <lastmod>2022-04-23</lastmod>
     
@@ -47,6 +47,13 @@
 
   
   <url>
+    <loc>https://xavierwah.xyz/tags/Mathematics/</loc>
+    <lastmod>2022-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://xavierwah.xyz/tags/Minecraft/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -68,13 +75,6 @@
   </url>
   
   <url>
-    <loc>https://xavierwah.xyz/tags/Announcement/</loc>
-    <lastmod>2022-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xavierwah.xyz/tags/Cryptography/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -82,7 +82,7 @@
   </url>
   
   <url>
-    <loc>https://xavierwah.xyz/tags/Mathematics/</loc>
+    <loc>https://xavierwah.xyz/tags/Announcement/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -91,14 +91,14 @@
 
   
   <url>
-    <loc>https://xavierwah.xyz/categories/Minecraft/</loc>
+    <loc>https://xavierwah.xyz/categories/Science/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xavierwah.xyz/categories/Announcement/</loc>
+    <loc>https://xavierwah.xyz/categories/Minecraft/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -112,7 +112,7 @@
   </url>
   
   <url>
-    <loc>https://xavierwah.xyz/categories/Science/</loc>
+    <loc>https://xavierwah.xyz/categories/Announcement/</loc>
     <lastmod>2022-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
