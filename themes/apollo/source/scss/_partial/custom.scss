@@ -1,0 +1,38 @@
+code {
+    margin: 0 2px;
+    padding: 3px 5px;
+    color: #cf222e;
+    border-radius: 2px;
+    white-space: inherit;
+}
+
+pre {
+    border: 1px solid darkgray;
+    border-radius: 0.8em;
+    padding: 0.4em;
+}
+
+code,
+pre {
+    font-size: 0.8em;
+    background-color: #f8f8f8;
+    font-family: 'Source Code Pro', 'Roboto Mono', Monaco, courier, monospace;
+}
+
+.hljs-ln-line {
+    background: white;
+}
+
+.hljs-ln-n {
+    margin-right: 1em;
+    text-align: right;
+}
+
+.link-icon {
+    padding-left: 0.2em;
+    color: gray;
+}
+
+.download-icon {
+    padding-right: 0.2em;
+}

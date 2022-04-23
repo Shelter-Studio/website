@@ -11,6 +11,13 @@ meta(name="viewport", content="width=device-width, initial-scale=1")
 link(rel="shortcut icon", href=url_for(theme.favicon))
 link(rel="stylesheet", href=url_for("css/apollo.css"))
 
+link(rel="stylesheet", href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/styles/intellij-light.min.css")
+script(src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js")
+script(src="//cdn.jsdelivr.net/npm/highlightjs-line-numbers.js@2.8.0/dist/highlightjs-line-numbers.min.js")
+script(src="/js/highlight-custom.js")
+
+script(src="https://kit.fontawesome.com/179619c2de.js", crossorigin="anonymous") 
+
 - var xml = config.url + '/atom.xml'
     link(rel="search", type="application/opensearchdescription+xml", href=xml, title=config.title)
     

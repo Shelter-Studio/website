@@ -1,6 +1,8 @@
 menu:
     Blog: /
     Archive: /archives/
+
+menulink:
     About: https://i.xavierwah.xyz
     GitHub: https://github.com/Shelter-Studio
 
