@@ -13,8 +13,6 @@ excerpt: 前段日子和朋友玩 Hypixel 的时候，朋友问我能不能把�
 
 前段日子和朋友玩 Hypixel 的时候，朋友问我能不能把某个玩家的皮肤给下载下来私用。我当时使用了 [NameMC](https://namemc.com) 获取玩家皮肤，但后来用来获取玩家的 UUID 时，发现有些玩家没办法搜到。这也就催生了我去寻找远古方法，直接通过 Mojang 服务器获取玩家皮肤、UUID 等信息的想法。
 
-<!-- more -->
-
 ## 原理阐释
 
 首先，我们通过 Mojang 提供的官方 *API* `api.mojang.com/users/profiles/minecraft/[ID]` 获取玩家的 UUID。对应填入玩家 ID，访问后就可以获取一段对应的 JSON，格式大概如下：
